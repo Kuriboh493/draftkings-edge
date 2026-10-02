@@ -1,0 +1,551 @@
+{
+ "94682_cat_1215": {
+  "league": "WNBA",
+  "holds": {},
+  "futures": []
+ },
+ "94682_cat_1241": {
+  "league": "WNBA",
+  "holds": {},
+  "futures": []
+ },
+ "College_Football_cat_1000": {
+  "league": "College Football",
+  "holds": {},
+  "futures": []
+ },
+ "College_Football_cat_1001": {
+  "league": "College Football",
+  "holds": {},
+  "futures": []
+ },
+ "College_Football_cat_1342": {
+  "league": "College Football",
+  "holds": {},
+  "futures": []
+ },
+ "College_Football_cat_529": {
+  "league": "College Football",
+  "holds": {},
+  "futures": [
+   {
+    "name": "CFP National Championship Game Winner",
+    "selections": 91,
+    "hold": 0.24005140527808444,
+    "favourite": 0.17391304347826086,
+    "longest": 0.00024993751562109475,
+    "shin_z": 0.006961368285120159,
+    "longest_fair_shin": 7.2290457699356445e-06,
+    "longest_fair_power": 0.00012540229453135996,
+    "favourite_fair_shin": 0.1532558442949246,
+    "favourite_fair_power": 0.15037117120924764,
+    "longest_markup_shin": 34.57406739082242,
+    "favourite_markup_shin": 1.1347889816429035
+   },
+   {
+    "name": "CFP National Championship Game Winner (No IL Schools)",
+    "selections": 89,
+    "hold": 0.23846974356815087,
+    "favourite": 0.17391304347826086,
+    "longest": 0.00024993751562109475,
+    "shin_z": 0.007012464584677733,
+    "longest_fair_shin": 7.185634806594099e-06,
+    "longest_fair_power": 0.00012576842110868726,
+    "favourite_fair_shin": 0.153334568665286,
+    "favourite_fair_power": 0.15046365175129636,
+    "longest_markup_shin": 34.782941569996375,
+    "favourite_markup_shin": 1.1342063631971706
+   },
+   {
+    "name": "CFP National Championship Game Winner (No VA Schools)",
+    "selections": 87,
+    "hold": 0.23290315729758904,
+    "favourite": 0.17391304347826086,
+    "longest": 0.00024993751562109475,
+    "shin_z": 0.007088125930798911,
+    "longest_fair_shin": 7.141152091876715e-06,
+    "longest_fair_power": 0.00012720385981655988,
+    "favourite_fair_shin": 0.15365660025873493,
+    "favourite_fair_power": 0.15082419510804707,
+    "longest_markup_shin": 34.99960684290796,
+    "favourite_markup_shin": 1.131829307595099
+   },
+   {
+    "name": "CFP National Championship Game Winner (No NY Schools)",
+    "selections": 89,
+    "hold": 0.2393849607595906,
+    "favourite": 0.17391304347826086,
+    "longest": 0.00024993751562109475,
+    "shin_z": 0.006988386186959813,
+    "longest_fair_shin": 7.2050231045295265e-06,
+    "longest_fair_power": 0.00012554334396689014,
+    "favourite_fair_shin": 0.15328670396877633,
+    "favourite_fair_power": 0.15040682432741798,
+    "longest_markup_shin": 34.689342698147414,
+    "favourite_markup_shin": 1.1345605259650309
+   },
+   {
+    "name": "CFP National Championship Game Winner (No NJ Schools)",
+    "selections": 91,
+    "hold": 0.24005140527808444,
+    "favourite": 0.17391304347826086,
+    "longest": 0.00024993751562109475,
+    "shin_z": 0.006961368285120159,
+    "longest_fair_shin": 7.2290457699356445e-06,
+    "longest_fair_power": 0.00012540229453135996,
+    "favourite_fair_shin": 0.1532558442949246,
+    "favourite_fair_power": 0.15037117120924764,
+    "longest_markup_shin": 34.57406739082242,
+    "favourite_markup_shin": 1.1347889816429035
+   },
+   {
+    "name": "CFP National Championship Game Winner (No MA Schools)",
+    "selections": 89,
+    "hold": 0.23940162769848894,
+    "favourite": 0.17391304347826086,
+    "longest": 0.00024993751562109475,
+    "shin_z": 0.0069876412170965605,
+    "longest_fair_shin": 7.2056928732805316e-06,
+    "longest_fair_power": 0.00012553985370445628,
+    "favourite_fair_shin": 0.15328596065066172,
+    "favourite_fair_power": 0.15040594247398523,
+    "longest_markup_shin": 34.68611832567682,
+    "favourite_markup_shin": 1.1345660277043128
+   }
+  ]
+ },
+ "MLB_cat_1031": {
+  "league": "MLB",
+  "holds": {},
+  "futures": []
+ },
+ "MLB_cat_743": {
+  "league": "MLB",
+  "holds": {},
+  "futures": []
+ },
+ "NBA_cat_1017": {
+  "league": "NBA",
+  "holds": {},
+  "futures": [
+   {
+    "name": "Fewest Regular Season Wins",
+    "selections": 30,
+    "hold": 0.21246142898487563,
+    "favourite": 0.37037037037037035,
+    "longest": 9.999000099990002e-05,
+    "shin_z": 0.012741643923065177,
+    "longest_fair_shin": 6.471395963755048e-07,
+    "longest_fair_power": 4.0684532138387424e-05,
+    "favourite_fair_shin": 0.3321304263869736,
+    "favourite_fair_power": 0.33614129377079754,
+    "longest_markup_shin": 154.5107138551301,
+    "favourite_markup_shin": 1.1151353231903012
+   }
+  ]
+ },
+ "NBA_cat_518": {
+  "league": "NBA",
+  "holds": {},
+  "futures": [
+   {
+    "name": "Finals MVP [all bets action]",
+    "selections": 70,
+    "hold": 0.2978994218972446,
+    "favourite": 0.25641025641025644,
+    "longest": 0.001996007984031936,
+    "shin_z": 0.005532693822541377,
+    "longest_fair_shin": 0.0005083618140909847,
+    "longest_fair_power": 0.0011233432335439712,
+    "favourite_fair_shin": 0.22292919941698291,
+    "favourite_fair_power": 0.2260895903468824,
+    "longest_markup_shin": 3.926353098729595,
+    "favourite_markup_shin": 1.1501869520943648
+   }
+  ]
+ },
+ "NBA_cat_519": {
+  "league": "NBA",
+  "holds": {},
+  "futures": [
+   {
+    "name": "Finals Winner",
+    "selections": 30,
+    "hold": 0.2141245630442541,
+    "favourite": 0.27027027027027023,
+    "longest": 0.000999000999000999,
+    "shin_z": 0.010091302292412358,
+    "longest_fair_shin": 8.081501534431163e-05,
+    "longest_fair_power": 0.0005568846895489166,
+    "favourite_fair_shin": 0.24148520588129113,
+    "favourite_fair_power": 0.2419553571867506,
+    "longest_markup_shin": 12.36157655535626,
+    "favourite_markup_shin": 1.1192001153194007
+   }
+  ]
+ },
+ "NHL_cat_1189": {
+  "league": "NHL",
+  "holds": {},
+  "futures": []
+ },
+ "NHL_cat_1190": {
+  "league": "NHL",
+  "holds": {},
+  "futures": []
+ },
+ "NHL_cat_1675": {
+  "league": "NHL",
+  "holds": {},
+  "futures": []
+ },
+ "nfl_cat_1000": {
+  "league": "NFL",
+  "holds": {},
+  "futures": [
+   {
+    "name": "Jameis Winston Passing Yards",
+    "selections": 24,
+    "hold": 7.38886835884907,
+    "favourite": 0.87499999453125,
+    "longest": 0.02631578947368421,
+    "shin_z": 0.5281468069786179,
+    "longest_fair_shin": 0.0001562838618551719,
+    "longest_fair_power": 2.4981402808634385e-12,
+    "favourite_fair_shin": 0.15212918562932554,
+    "favourite_fair_power": 0.37505115977754727,
+    "longest_markup_shin": 168.38456102441995,
+    "favourite_markup_shin": 5.751690518236618
+   }
+  ]
+ },
+ "nfl_cat_1001": {
+  "league": "NFL",
+  "holds": {},
+  "futures": [
+   {
+    "name": "Jameis Winston Rushing Yards",
+    "selections": 8,
+    "hold": 0.7822571229395565,
+    "favourite": 0.5238095235600907,
+    "longest": 0.02564102564102564,
+    "shin_z": 0.1477160861474714,
+    "longest_fair_shin": 0.002462328710416825,
+    "longest_fair_power": 0.003762738930137296,
+    "favourite_fair_shin": 0.3470929343000851,
+    "favourite_fair_power": 0.3733110309425198,
+    "longest_markup_shin": 10.413323587769526,
+    "favourite_markup_shin": 1.5091333524733244
+   }
+  ]
+ },
+ "nfl_cat_1003": {
+  "league": "NFL",
+  "holds": {},
+  "futures": []
+ },
+ "nfl_cat_1076": {
+  "league": "NFL",
+  "holds": {},
+  "futures": [
+   {
+    "name": "NFL 2026/27 - AFC 1 Seed",
+    "selections": 16,
+    "hold": 0.20952869750448455,
+    "favourite": 0.3448275862068966,
+    "longest": 0.000999000999000999,
+    "shin_z": 0.019525911648510523,
+    "longest_fair_shin": 4.216826467664086e-05,
+    "longest_fair_power": 0.00048516978305862166,
+    "favourite_fair_shin": 0.30684648653564073,
+    "favourite_fair_power": 0.308504758778624,
+    "longest_markup_shin": 23.690825474124768,
+    "favourite_markup_shin": 1.1237788318845368
+   },
+   {
+    "name": "NFL 2026/27 - NFC 1 Seed",
+    "selections": 16,
+    "hold": 0.21496598302764602,
+    "favourite": 0.2857142857142857,
+    "longest": 0.0033222591362126247,
+    "shin_z": 0.018158957028132666,
+    "longest_fair_shin": 0.0004874323461113613,
+    "longest_fair_power": 0.0019083450544145405,
+    "favourite_fair_shin": 0.2525109149167413,
+    "favourite_fair_power": 0.25297597988048054,
+    "longest_markup_shin": 6.8158364185654685,
+    "favourite_markup_shin": 1.1314928141165395
+   }
+  ]
+ },
+ "nfl_cat_1286": {
+  "league": "NFL",
+  "holds": {},
+  "futures": []
+ },
+ "nfl_cat_1304": {
+  "league": "NFL",
+  "holds": {},
+  "futures": []
+ },
+ "nfl_cat_1342": {
+  "league": "NFL",
+  "holds": {},
+  "futures": []
+ },
+ "nfl_cat_528": {
+  "league": "NFL",
+  "holds": {
+   "Scoring Props|2-way": {
+    "n": 15,
+    "mean": 0.06252574905948875,
+    "min": 0.05952380757936515,
+    "max": 0.06926406703116506
+   }
+  },
+  "futures": []
+ },
+ "nfl_cat_529": {
+  "league": "NFL",
+  "holds": {},
+  "futures": [
+   {
+    "name": "Winner",
+    "selections": 32,
+    "hold": 0.21968790972465624,
+    "favourite": 0.12987012987012986,
+    "longest": 0.000999000999000999,
+    "shin_z": 0.008161174663079314,
+    "longest_fair_shin": 9.906787276470092e-05,
+    "longest_fair_power": 0.0006122306982897685,
+    "favourite_fair_shin": 0.11403423212651176,
+    "favourite_fair_power": 0.11237784655173007,
+    "longest_markup_shin": 10.084005754052642,
+    "favourite_markup_shin": 1.1388696836757708
+   }
+  ]
+ },
+ "nfl_cat_530": {
+  "league": "NFL",
+  "holds": {
+   "Team Totals|alt O/U": {
+    "n": 594,
+    "mean": 0.05294431302143644,
+    "min": 0.036199089832313014,
+    "max": 0.0680272082271276
+   },
+   "Team Totals|main O/U": {
+    "n": 30,
+    "mean": 0.06364830067250601,
+    "min": 0.057649663423483766,
+    "max": 0.06976744036776639
+   }
+  },
+  "futures": []
+ },
+ "nfl_cat_787": {
+  "league": "NFL",
+  "holds": {},
+  "futures": [
+   {
+    "name": "Regular Season MVP",
+    "selections": 82,
+    "hold": 0.4524676343610441,
+    "favourite": 0.2777777777777778,
+    "longest": 0.000999000999000999,
+    "shin_z": 0.010284401126707882,
+    "longest_fair_shin": 6.638663034269737e-05,
+    "longest_fair_power": 0.0003728587079286219,
+    "favourite_fair_shin": 0.22654289133932595,
+    "favourite_fair_power": 0.23138710209633512,
+    "longest_markup_shin": 15.048225732259818,
+    "favourite_markup_shin": 1.226159762222289
+   }
+  ]
+ },
+ "league_94682": {
+  "league": "WNBA",
+  "holds": {
+   "Game|2-way": {
+    "n": 2,
+    "mean": 0.042218793149345624,
+    "min": 0.04181184392368498,
+    "max": 0.04262574237500627
+   },
+   "Game|main O/U": {
+    "n": 2,
+    "mean": 0.04730574653377495,
+    "min": 0.04707884013629249,
+    "max": 0.04753265293125741
+   }
+  },
+  "futures": []
+ },
+ "league_bundesliga": {
+  "league": "English Premier League",
+  "holds": {},
+  "futures": []
+ },
+ "league_epl": {
+  "league": "English Premier League",
+  "holds": {},
+  "futures": []
+ },
+ "league_laliga": {
+  "league": "Spain - La Liga",
+  "holds": {},
+  "futures": []
+ },
+ "league_mlb": {
+  "league": "MLB",
+  "holds": {
+   "Game|2-way": {
+    "n": 4,
+    "mean": 0.04554592123573625,
+    "min": 0.04494982319498386,
+    "max": 0.04589173312027062
+   },
+   "Game|main O/U": {
+    "n": 4,
+    "mean": 0.04727233038212336,
+    "min": 0.04661900865939739,
+    "max": 0.04832948804579296
+   }
+  },
+  "futures": []
+ },
+ "league_nba": {
+  "league": "NBA",
+  "holds": {
+   "Game|2-way": {
+    "n": 44,
+    "mean": 0.043132685141030566,
+    "min": 0.04072681647954468,
+    "max": 0.04761904712018139
+   },
+   "Game|main O/U": {
+    "n": 44,
+    "mean": 0.04741033078549704,
+    "min": 0.04707884013629249,
+    "max": 0.04761904712018139
+   }
+  },
+  "futures": []
+ },
+ "league_ncaab": {
+  "league": "College Basketball (M)",
+  "holds": {},
+  "futures": [
+   {
+    "name": "Men's NCAA Basketball Champion 2027",
+    "selections": 100,
+    "hold": 0.4558784124539461,
+    "favourite": 0.14285714285714285,
+    "longest": 0.000999000999000999,
+    "shin_z": 0.006766496140625,
+    "longest_fair_shin": 9.984449559507667e-05,
+    "longest_fair_power": 0.00045936701694654434,
+    "favourite_fair_shin": 0.11544178460494922,
+    "favourite_fair_power": 0.11478063654274986,
+    "longest_markup_shin": 10.00556909068365,
+    "favourite_markup_shin": 1.237482107072505
+   },
+   {
+    "name": "Men's NCAA Basketball Champion 2027 w/o NJ Colleges",
+    "selections": 98,
+    "hold": 0.44602028192411547,
+    "favourite": 0.14285714285714285,
+    "longest": 0.000999000999000999,
+    "shin_z": 0.006686830209001815,
+    "longest_fair_shin": 0.00010167791164415744,
+    "longest_fair_power": 0.00046540676538441575,
+    "favourite_fair_shin": 0.11588033309751627,
+    "favourite_fair_power": 0.11520370466126739,
+    "longest_markup_shin": 9.825152610305436,
+    "favourite_markup_shin": 1.2327988627451123
+   }
+  ]
+ },
+ "league_ncaaf": {
+  "league": "College Football",
+  "holds": {
+   "Game|2-way": {
+    "n": 67,
+    "mean": 0.042004026044026595,
+    "min": 0.031132581857219677,
+    "max": 0.04753265293125741
+   },
+   "Game|main O/U": {
+    "n": 69,
+    "mean": 0.04736593503142862,
+    "min": 0.0462348970751032,
+    "max": 0.04761904712018139
+   }
+  },
+  "futures": []
+ },
+ "league_nfl": {
+  "league": "NFL",
+  "holds": {
+   "Game|2-way": {
+    "n": 28,
+    "mean": 0.04243234893135928,
+    "min": 0.04132231133392539,
+    "max": 0.044526898198684384
+   },
+   "Game|main O/U": {
+    "n": 28,
+    "mean": 0.04720932356840918,
+    "min": 0.04459905182656021,
+    "max": 0.04761904712018139
+   }
+  },
+  "futures": []
+ },
+ "league_nhl": {
+  "league": "NHL",
+  "holds": {
+   "Game|2-way": {
+    "n": 19,
+    "mean": 0.0441398213606855,
+    "min": 0.04140786724907741,
+    "max": 0.04761904712018139
+   },
+   "Game|main O/U": {
+    "n": 19,
+    "mean": 0.04347799790023168,
+    "min": 0.04140786724907741,
+    "max": 0.04761904712018139
+   }
+  },
+  "futures": []
+ },
+ "league_seriea": {
+  "league": "Italy - Serie A",
+  "holds": {},
+  "futures": []
+ },
+ "league_ucl": {
+  "league": "Champions League",
+  "holds": {},
+  "futures": []
+ },
+ "league_ufc": {
+  "league": "UFC",
+  "holds": {
+   "Fight Lines|2-way": {
+    "n": 29,
+    "mean": 0.04258409156882369,
+    "min": 0.04132231133392539,
+    "max": 0.0462348970751032
+   },
+   "Fight Lines|main O/U": {
+    "n": 14,
+    "mean": 0.06284394784570897,
+    "min": 0.05942274887320176,
+    "max": 0.06976744036776639
+   }
+  },
+  "futures": []
+ }
+}
