@@ -12,7 +12,10 @@ ET = lambda col: f"strptime(replace(replace({col}, ' EDT', ''), ' EST', ''), '%m
 def main():
     t0 = time.time()
     con = duckdb.connect(DB)
-    con.execute("PRAGMA threads=8")
+    con.execute("PRAGMA threads=2")                          # the full rebuild reads ~5 GB of CSV; on an 8 GB Mac the defaults ran out of memory
+    con.execute("PRAGMA memory_limit='6GB'")
+    con.execute("SET preserve_insertion_order=false")
+    con.execute(f"PRAGMA temp_directory='{os.path.join(DATA, 'tmp')}'")
     raw = os.path.join(DATA, "raw")
     con.execute(f"""CREATE OR REPLACE TABLE trades AS
 SELECT CAST("Business Date" AS INTEGER) AS bdate, Symbol AS symbol, {ET('"Transaction Date and Time"')} AS ts,
@@ -31,9 +34,12 @@ SELECT CAST("Business Date" AS INTEGER) AS bdate, Symbol AS symbol, Status AS st
        "Maturity Date and Time (ET)" AS maturity_raw
 FROM read_csv('{raw}/daily-market_*.csv', header=true, filename=true, all_varchar=true, union_by_name=true)""")
     print("daily", con.execute("select count(*), count(distinct symbol) from daily").fetchall(), round(time.time() - t0))
+    # contracts: built in stages so the long combo names (up to ~1.5k chars each, 7M+ rows) are never held inside a hash aggregate
+    con.execute("""CREATE OR REPLACE TEMP TABLE latest AS SELECT symbol, max(src) AS src FROM settlements GROUP BY symbol""")
+    con.execute("""CREATE OR REPLACE TEMP TABLE m AS
+SELECT symbol, min(maturity_raw) AS maturity_raw, max(oi) AS max_oi, sum(vol) AS total_vol, min(bdate) AS first_listed FROM daily GROUP BY symbol""")
     con.execute("""CREATE OR REPLACE TABLE contracts AS
-WITH s AS (SELECT symbol, arg_max(settle, src) AS settle, arg_max(name, src) AS name, arg_max(settle_ts_raw, src) AS settle_ts_raw FROM settlements GROUP BY symbol),
-     m AS (SELECT symbol, min(maturity_raw) AS maturity_raw, max(oi) AS max_oi, sum(vol) AS total_vol, min(bdate) AS first_listed FROM daily GROUP BY symbol)
+WITH s AS (SELECT t.symbol, t.settle, t.name, t.settle_ts_raw FROM settlements t JOIN latest l ON t.symbol = l.symbol AND t.src = l.src)
 SELECT coalesce(s.symbol, m.symbol) AS symbol, s.settle, s.name, s.settle_ts_raw,
        try_strptime(replace(replace(s.settle_ts_raw, ' EDT', ''), ' EST', ''), '%m/%d/%y %I:%M:%S.%f %p') AS settle_ts,
        m.maturity_raw, m.max_oi, m.total_vol, m.first_listed,

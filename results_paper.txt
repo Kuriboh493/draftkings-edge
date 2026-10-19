@@ -1,0 +1,17 @@
+processed dates: [20261001, 20261002, 20261005, 20261006, 20261007, 20261008, 20261009, 20261012, 20261013, 20261014, 20261015, 20261016, 20261019]
+combo_followon   days  13 fills  370064 contracts 18,548,579 open 4,384,405 settled 14,164,174 P&L $  -281,160 fees $  46,371 net $  -327,531 = -2.31c/settled contract
+moneyline_maker  days  13 fills   38274 contracts    761,784 open         0 settled    761,784 P&L $    -2,373 fees $   1,904 net $    -4,277 = -0.56c/settled contract
+last_minutes     days  10 fills   11038 contracts    558,308 open         0 settled    558,308 P&L $    57,743 fees $   7,201 net $    50,543 = 9.05c/settled contract
+20261001 combo_followon $-32,685 moneyline_maker $-371
+20261002 combo_followon $-38,535 last_minutes $6,130 moneyline_maker $216
+20261005 combo_followon $6,152 moneyline_maker $-637
+20261006 combo_followon $-56,132 last_minutes $1,168 moneyline_maker $-182
+20261007 combo_followon $-15,579 last_minutes $2,220 moneyline_maker $142
+20261008 combo_followon $-2,503 last_minutes $255 moneyline_maker $131
+20261009 combo_followon $23,570 last_minutes $516 moneyline_maker $-891
+20261012 combo_followon $-128,311 last_minutes $16,852 moneyline_maker $1,106
+20261013 combo_followon $-58,298 last_minutes $655 moneyline_maker $-934
+20261014 combo_followon $-27,739 last_minutes $3,205 moneyline_maker $-1,583
+20261015 combo_followon $9,939 last_minutes $701 moneyline_maker $-1,391
+20261016 combo_followon $-599 moneyline_maker $-335
+20261019 combo_followon $4,150 last_minutes $18,839 moneyline_maker $451
